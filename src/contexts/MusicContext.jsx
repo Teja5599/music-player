@@ -38,7 +38,30 @@ const songs = [
         artist: "EchoBR",
         url: "/songs/In Love.wav",
         duration: "3:15",
+    },
+    {
+        id :6,
+        title : "Die With A Smile",
+        artist : "Bruno Mars",
+        url : "/songs/Die With A Smile.mp3",
+        duration : "4:11"
+    },
+    {
+        id : 7,
+        title : "Perfect",
+        artist :"Ed Sheeran",
+        url : "/songs/Perfect.mp3",
+        duration : "4:23"
+    },
+
+    {
+        id : 8,
+        title : "I wanna be Yours",
+        artist  : "Arctic Monkeys",
+        url : "/songs/I wanna be Yours.mp3",
+        duration : "2:28"
     }
+
 
 ]
 export const MusicProvider = ({ children }) => {
